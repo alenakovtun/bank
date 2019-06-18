@@ -12,7 +12,7 @@ namespace Bankomat
 {
     public partial class Wyplata : Form
     {
-        public double SumaNaKoncie = 1500;
+        public double SumaNaKoncie = 1500; //!< Suma na koncie
         public Wyplata()
         {
             InitializeComponent();
@@ -91,6 +91,10 @@ namespace Bankomat
             }
 
         }
+
+        /*!
+          * \brief Powrót do wybora operacji
+          */
         private void button5_Click(object sender, EventArgs e)
         {
             WyborOperacji wyb = new WyborOperacji();
@@ -98,11 +102,20 @@ namespace Bankomat
             this.Close();
         }
 
+        /*!
+          * Zamknięcie 
+          * param sender
+          * param e
+          */
         private void button6_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /*!
+        * param sender
+        * param e
+        */
         private void Wyplata_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;

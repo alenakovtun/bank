@@ -19,10 +19,23 @@ namespace Bankomat
             InitializeComponent();
         }
 
+        /*!
+          * Zamknięcie 
+          * param sender
+          * param e
+          */
         private void button4_Click(object sender, EventArgs e)
         {
             Close();
         }
+
+
+        /*!
+        * \brief Wybieramy operacje Wyplata 
+        * \param sender
+        * \param e
+        * 
+        */
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -31,6 +44,12 @@ namespace Bankomat
             this.Close();
         }
 
+        /*!
+        * \brief Wybieramy operacje Wplata 
+        * \param sender
+        * \param e
+        * 
+        */
         private void button3_Click(object sender, EventArgs e)
         {
             Wplata wpl = new Wplata();
@@ -39,6 +58,12 @@ namespace Bankomat
 
         }
 
+        /*!
+        * \brief Wybieramy operacje Stan konta 
+        * \param sender
+        * \param e
+        * 
+        */
         private void button2_Click(object sender, EventArgs e)
         {
             StanKonta sk = new StanKonta();
@@ -46,6 +71,10 @@ namespace Bankomat
             this.Close();
         }
 
+        /*!
+        * param sender
+        * param e
+        */
         private void WyborOperacji_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;

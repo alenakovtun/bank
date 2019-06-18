@@ -16,16 +16,20 @@ namespace Bankomat
         {
             InitializeComponent();
         }
-        public string NumerKarty = "1234567890";
-        public string Pin= "1234";
-        public string numerkarty;
-        public string pin;
+        public string NumerKarty = "1234567890";//!< Prawidlowy numer karty
+        public string Pin= "1234";//!< Prawidlowy pin
+        public string numerkarty;//!< numer karty wpisany użytkownikiem
+        public string pin;//!< pin wpisany użytkownikiem
 
         private void label2_Click(object sender, EventArgs e)
         {
 
         }
-
+        /*!
+          * Zamknięcie 
+          * param sender
+          * param e
+          */
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -55,9 +59,19 @@ namespace Bankomat
 
         }
 
+        /*!
+        * param sender
+        * param e
+        */
+
         private void ZaPomocaKarty_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

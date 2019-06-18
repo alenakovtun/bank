@@ -12,16 +12,24 @@ namespace Bankomat
 {
     public partial class Wplata : Form
     {
-        public int kasa;
-        public double konto = 1500;
+        public int kasa;//!< Ilość wpisanej kasy
+        public double konto = 1500;//!< stan konta
         public Wplata()
         {
             InitializeComponent();
         }
+        /*!
+        * \ brief wpisujemy kasę
+        */
         public void getkasa()
         {
             kasa = Int32.Parse(textBox1.Text);
         }
+        /*!
+        * \ brief Powrót do wybora operacja
+        * \param sender
+        * \param e
+        */
         private void button2_Click(object sender, EventArgs e)
         {
             WyborOperacji wyb = new WyborOperacji();
@@ -38,8 +46,13 @@ namespace Bankomat
             getkasa();
             konto = konto + kasa;
             MessageBox.Show("Kasa przyjeta" + "\n" + "Na twoim koncie " + konto + " zlotych");
-        }   
+        }
 
+
+        /*!
+        * param sender
+        * param e
+        */
         private void Wplata_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;

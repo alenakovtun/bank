@@ -17,19 +17,35 @@ namespace Bankomat
             InitializeComponent();
         }
 
+        /*!
+          * Zamknięcie 
+          * param sender
+          * param e
+          */
+
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /*!
+         * \ brief Obieramy logowanie za pomocą karty
+         * \param sender
+         * \param e
+         */
+ 
         private void button1_Click(object sender, EventArgs e)
         {
             ZaPomocaKarty zpk = new ZaPomocaKarty();
             zpk.Show();
 
         }
-         
 
+        /*!
+        * \ brief Obieramy logowanie bez karty
+        * \param sender
+        * \param e
+        */
         private void button2_Click(object sender, EventArgs e)
         {
             BezKarty bz = new BezKarty();
@@ -42,6 +58,10 @@ namespace Bankomat
 
         }
 
+        /*! 
+         * \param sender
+         * \param e
+         */
         private void Logowanie_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;

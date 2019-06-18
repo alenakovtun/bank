@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*!
+ * \author Alona Kovtun Vladyslava Tokar 
+ * \version 1.0
+ * \date 18.06.2019
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,16 +21,25 @@ namespace Bankomat
         {
             InitializeComponent();
         }
-        public string Nik = "nik";
-        public string Haslo = "haslo";
-        public string nik;
-        public string haslo;
+        public string Nik = "nik";//!< Prawidlowy nik
+        public string Haslo = "haslo";//!< Prawidlowe hasło
+        public string nik;//!< nik wpisany użytkownikiem
+        public string haslo;//!< hasło wpisane użytkownikiem
+        /*!
+          * Zamknięcie 
+          * param sender
+          * param e
+          */
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
         /*!
-         * Jeżeli nik i hasło pasują, to użytkownik może zalogować się w systemie. W innym przypadku będzie wiadomość o tym, że dane są nieprawidlowe
+         * \brief Jeżeli nik i hasło pasują, to użytkownik może zalogować się w systemie. W innym przypadku będzie wiadomość o tym, że dane są nieprawidlowe
+         * \param sender
+         * \param e
+         * 
          */
 
         private void button2_Click(object sender, EventArgs e)
@@ -44,6 +58,10 @@ namespace Bankomat
             }
         }
 
+        /*!
+         * param sender
+         * param e
+         */
         private void BezKarty_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;

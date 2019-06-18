@@ -33,6 +33,10 @@ namespace Bankomat
 
         }
 
+        /*!
+        * param sender
+        * param e
+        */
         private void InnaKwota_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;

@@ -12,8 +12,8 @@ namespace Bankomat
 {
     public partial class StanKonta : Form
     {
-        public int kasa;
-        public double konto = 1500;
+        public int kasa; //!< wpisana kasa
+        public double konto = 1500;//!< stan konta
 
         public StanKonta()
         {
@@ -28,11 +28,22 @@ namespace Bankomat
 
         }
 
+        /*!
+          * Zamknięcie 
+          * param sender
+          * param e
+          */
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /*!
+        * \ brief Wyświetlanie stanu konta
+        * \param sender
+        * \param e
+        */
         private void StanKonta_Load(object sender, EventArgs e)
         {
            MessageBox.Show("Na twoim koncie " + konto + " zlotych");

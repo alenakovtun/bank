@@ -1,4 +1,5 @@
-﻿namespace Bankomat
+﻿
+namespace Bankomat
 {
     partial class BezKarty
     {
