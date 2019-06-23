@@ -121,7 +121,7 @@ namespace Bankomat
         /*!
         * \param sender obiekt, który wyzwala zdarzenie.
         * \param e zmienna argumentu
-        */
+        */ 
         private void Wyplata_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;

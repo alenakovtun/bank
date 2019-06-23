@@ -63,7 +63,7 @@ namespace Bankomat
 
         /*!
         * \param sender obiekt, który wyzwala zdarzenie.
-        * \param e zmienna argumentu
+        * \param e zmienna argumentu 
         */
 
         private void ZaPomocaKarty_Load(object sender, EventArgs e)

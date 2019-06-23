@@ -30,8 +30,8 @@ namespace Bankomat
 
         /*!
           * Zamknięcie 
-          * param sender
-          * param e
+          * \param sender obiekt, który wyzwala zdarzenie.
+          * \param e zmienna argumentu 
           */
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,8 +41,8 @@ namespace Bankomat
 
         /*!
         * \ brief Wyświetlanie stanu konta
-        * \param sender
-        * \param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu 
         */
         private void StanKonta_Load(object sender, EventArgs e)
         {

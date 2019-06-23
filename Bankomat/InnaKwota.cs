@@ -45,7 +45,7 @@ namespace Bankomat
 
         /*!
         * \param sender obiekt, który wyzwala zdarzenie.
-        * \param e zmienna argumentu
+        * \param e zmienna argumentu 
         */
         private void InnaKwota_Load(object sender, EventArgs e)
         {
