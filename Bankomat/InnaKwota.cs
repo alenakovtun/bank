@@ -19,6 +19,11 @@ namespace Bankomat
             InitializeComponent();
         }
 
+        /*!
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
+        */
+
         private void button2_Click(object sender, EventArgs e)
         {
             Wyplata wo = new Wyplata();
@@ -27,6 +32,11 @@ namespace Bankomat
 
         }
 
+        /*!
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
+        */
+
         private void button1_Click(object sender, EventArgs e)
         {
             GetInnaKwota = textBox1.Text;
@@ -34,8 +44,8 @@ namespace Bankomat
         }
 
         /*!
-        * param sender
-        * param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         */
         private void InnaKwota_Load(object sender, EventArgs e)
         {

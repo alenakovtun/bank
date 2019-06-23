@@ -21,7 +21,8 @@ namespace Bankomat
         /*!
          * Kiedy użytkownik wypłaca 20 zł ze swojego konta, to od jego bieżącego stanu konta będzie odejmowana ta ilość. 
          * Jeżeli na koncie mniej niż 20 zł, to wypłata nie będzie zrealizowana i pojawi się okienko z wiadomością o braku środków 
-         * 
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu
          */
         public void button1_Click(object sender, EventArgs e)
         {
@@ -39,7 +40,8 @@ namespace Bankomat
         /*!
          * Kiedy użytkownik wypłaca 50 zł ze swojego konta, to od jego bieżącego stanu konta będzie odejmowana ta ilość. 
          * Jeżeli na koncie mniej niż 50 zł, to wypłata nie będzie zrealizowana i pojawi się okienko z wiadomością o braku środków 
-         * 
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu
          */
 
         public void button2_Click(object sender, EventArgs e)
@@ -58,7 +60,8 @@ namespace Bankomat
         /*!
          * Kiedy użytkownik wypłaca 100 zł ze swojego konta, to od jego bieżącego stanu konta będzie odejmowana ta ilość. 
          * Jeżeli na koncie mniej niż 100 zł, to wypłata nie będzie zrealizowana i pojawi się okienko z wiadomością o braku środków 
-         * 
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu
          */
         public void button3_Click(object sender, EventArgs e)
         {
@@ -76,7 +79,8 @@ namespace Bankomat
         /*!
          * Kiedy użytkownik wypłaca 200 zł ze swojego konta, to od jego bieżącego stanu konta będzie odejmowana ta ilość. 
          * Jeżeli na koncie mniej niż 200 zł, to wypłata nie będzie zrealizowana i pojawi się okienko z wiadomością o braku środków 
-         * 
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu
          */
         public void button4_Click(object sender, EventArgs e)
         {
@@ -94,6 +98,8 @@ namespace Bankomat
 
         /*!
           * \brief Powrót do wybora operacji
+          * \param sender obiekt, który wyzwala zdarzenie.
+          * \param e zmienna argumentu
           */
         private void button5_Click(object sender, EventArgs e)
         {
@@ -104,8 +110,8 @@ namespace Bankomat
 
         /*!
           * Zamknięcie 
-          * param sender
-          * param e
+          * \param sender obiekt, który wyzwala zdarzenie.
+          * \param e zmienna argumentu
           */
         private void button6_Click(object sender, EventArgs e)
         {
@@ -113,8 +119,8 @@ namespace Bankomat
         }
 
         /*!
-        * param sender
-        * param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         */
         private void Wyplata_Load(object sender, EventArgs e)
         {

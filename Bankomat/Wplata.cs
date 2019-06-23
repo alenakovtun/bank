@@ -26,9 +26,9 @@ namespace Bankomat
             kasa = Int32.Parse(textBox1.Text);
         }
         /*!
-        * \ brief Powrót do wybora operacja
-        * \param sender
-        * \param e
+        * \brief Powrót do wybora operacja
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         */
         private void button2_Click(object sender, EventArgs e)
         {
@@ -38,7 +38,9 @@ namespace Bankomat
         }
 
         /*!
-         * Gdy użytkownik realizuje wplatę, jego stan konta zwieksza się na te ilość kasy
+         * \brief Gdy użytkownik realizuje wplatę, jego stan konta zwieksza się na te ilość kasy
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu
          */
 
         public void button1_Click(object sender, EventArgs e)
@@ -50,8 +52,8 @@ namespace Bankomat
 
 
         /*!
-        * param sender
-        * param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         */
         private void Wplata_Load(object sender, EventArgs e)
         {

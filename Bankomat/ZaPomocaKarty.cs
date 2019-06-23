@@ -27,8 +27,8 @@ namespace Bankomat
         }
         /*!
           * Zamknięcie 
-          * param sender
-          * param e
+          * \param sender obiekt, który wyzwala zdarzenie.
+          * \param e zmienna argumentu
           */
         private void button1_Click(object sender, EventArgs e)
         {
@@ -36,6 +36,8 @@ namespace Bankomat
         }
         /*!
          * Jeżeli numer karty i pin pasują, to użytkownik może zalogować się w systemie. W innym przypadku będzie wiadomość o tym, że dane są nieprawidlowe
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu
          */
 
         private void button2_Click(object sender, EventArgs e)
@@ -60,8 +62,8 @@ namespace Bankomat
         }
 
         /*!
-        * param sender
-        * param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         */
 
         private void ZaPomocaKarty_Load(object sender, EventArgs e)

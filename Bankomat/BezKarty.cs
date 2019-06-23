@@ -27,8 +27,8 @@ namespace Bankomat
         public string haslo;//!< hasło wpisane użytkownikiem
         /*!
           * Zamknięcie 
-          * param sender
-          * param e
+          * \param sender obiekt, który wyzwala zdarzenie.
+          * \param e zmienna argumentu
           */
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,8 +37,8 @@ namespace Bankomat
         }
         /*!
          * \brief Jeżeli nik i hasło pasują, to użytkownik może zalogować się w systemie. W innym przypadku będzie wiadomość o tym, że dane są nieprawidlowe
-         * \param sender
-         * \param e
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu
          * 
          */
 
@@ -59,8 +59,8 @@ namespace Bankomat
         }
 
         /*!
-         * param sender
-         * param e
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu.
          */
         private void BezKarty_Load(object sender, EventArgs e)
         {

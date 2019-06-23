@@ -19,8 +19,8 @@ namespace Bankomat
 
         /*!
           * Zamknięcie 
-          * param sender
-          * param e
+          * \param sender obiekt, który wyzwala zdarzenie.
+          * \param e zmienna argumentu
           */
 
         private void button3_Click(object sender, EventArgs e)
@@ -29,11 +29,11 @@ namespace Bankomat
         }
 
         /*!
-         * \ brief Obieramy logowanie za pomocą karty
-         * \param sender
-         * \param e
+         * \brief Obieramy logowanie za pomocą karty
+         * \param sender obiekt, który wyzwala zdarzenie.
+         * \param e zmienna argumentu
          */
- 
+
         private void button1_Click(object sender, EventArgs e)
         {
             ZaPomocaKarty zpk = new ZaPomocaKarty();
@@ -42,9 +42,9 @@ namespace Bankomat
         }
 
         /*!
-        * \ brief Obieramy logowanie bez karty
-        * \param sender
-        * \param e
+        * \brief Obieramy logowanie bez karty
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         */
         private void button2_Click(object sender, EventArgs e)
         {
@@ -58,10 +58,10 @@ namespace Bankomat
 
         }
 
-        /*! 
-         * \param sender
-         * \param e
-         */
+        /*!
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
+        */
         private void Logowanie_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;

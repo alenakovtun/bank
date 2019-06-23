@@ -21,8 +21,8 @@ namespace Bankomat
 
         /*!
           * Zamknięcie 
-          * param sender
-          * param e
+          * \param sender obiekt, który wyzwala zdarzenie.
+          * \param e zmienna argumentu
           */
         private void button4_Click(object sender, EventArgs e)
         {
@@ -32,8 +32,8 @@ namespace Bankomat
 
         /*!
         * \brief Wybieramy operacje Wyplata 
-        * \param sender
-        * \param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         * 
         */
 
@@ -46,8 +46,8 @@ namespace Bankomat
 
         /*!
         * \brief Wybieramy operacje Wplata 
-        * \param sender
-        * \param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         * 
         */
         private void button3_Click(object sender, EventArgs e)
@@ -60,8 +60,8 @@ namespace Bankomat
 
         /*!
         * \brief Wybieramy operacje Stan konta 
-        * \param sender
-        * \param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         * 
         */
         private void button2_Click(object sender, EventArgs e)
@@ -72,8 +72,8 @@ namespace Bankomat
         }
 
         /*!
-        * param sender
-        * param e
+        * \param sender obiekt, który wyzwala zdarzenie.
+        * \param e zmienna argumentu
         */
         private void WyborOperacji_Load(object sender, EventArgs e)
         {
